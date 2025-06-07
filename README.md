@@ -1,18 +1,38 @@
 # 🌦️ Weather Dashboard
 
-O **Weather Dashboard** é uma aplicação web moderna construída em React para consultar e exibir dados meteorológicos em tempo real. A aplicação apresenta um design responsivo com gráficos interativos, utilizando Tailwind CSS e Chart.js.
+Uma aplicação React para exibir previsões do tempo em tempo real, com gráficos interativos e design responsivo.
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## 🎬 Demo
 
-- ⚛️ **React 18**
-- 💨 **Tailwind CSS**
-- 📊 **Chart.js + react-chartjs-2**
-- 🌐 **API OpenWeatherMap**
-- 🔔 **React Hot Toast**
-- 🎨 **React Icons**
-- 🛠️ **PostCSS + Autoprefixer**
+![Weather Dashboard Demo](https://user-images.githubusercontent.com/SEU_USUARIO/demo-weather.gif)
+
+Ou acesse: [https://weather-dashboard.seusite.com](https://weather-dashboard.seusite.com)
+
+---
+
+## 📚 Sumário
+
+- [Tecnologias](#-tecnologias)
+- [Funcionalidades](#-funcionalidades)
+- [Como executar](#-como-executar)
+- [Variáveis de ambiente](#-variáveis-de-ambiente)
+- [Estrutura de pastas](#-estrutura-de-pastas)
+- [Contribuição](#-contribuição)
+- [Licença](#-licença)
+
+---
+
+## 🚀 Tecnologias
+
+- ⚛️ React 18
+- 💨 Tailwind CSS
+- 📊 Chart.js + react-chartjs-2
+- 🌐 API OpenWeatherMap
+- 🔔 React Hot Toast
+- 🎨 React Icons
+- 🛠️ PostCSS + Autoprefixer
 
 ---
 
@@ -26,7 +46,7 @@ O **Weather Dashboard** é uma aplicação web moderna construída em React para
 
 ---
 
-## ⚙️ Como executar o projeto localmente
+## ⚙️ Como executar
 
 ```bash
 # Clone o repositório
@@ -37,8 +57,8 @@ cd weather-dashboard
 # Instale as dependências
 npm install
 
-# Crie um arquivo .env com base no .env.example
+# Crie o arquivo .env com base no .env.example
 cp .env.example .env
 
-# Inicie o servidor
+# Inicie a aplicação
 npm start
