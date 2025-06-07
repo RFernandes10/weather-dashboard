@@ -1,36 +1,44 @@
 # 🌦️ Weather Dashboard
 
-O **Weather Dashboard** é uma aplicação web moderna que exibe informações meteorológicas em tempo real de diversas cidades, com gráficos interativos e uma interface responsiva.
-
-Desenvolvido com **React**, estilizado com **Tailwind CSS** e enriquecido com gráficos via **Chart.js**, o projeto oferece uma experiência visual limpa e funcional para acompanhar as condições climáticas de forma eficiente.
+O **Weather Dashboard** é uma aplicação web moderna construída em React para consultar e exibir dados meteorológicos em tempo real. A aplicação apresenta um design responsivo com gráficos interativos, utilizando Tailwind CSS e Chart.js.
 
 ---
 
 ## 🚀 Tecnologias utilizadas
 
-- **React** – Framework JavaScript para construção da UI
-- **Tailwind CSS** – Utilitário CSS para estilização rápida e responsiva
-- **Chart.js + react-chartjs-2** – Visualização gráfica dos dados meteorológicos
-- **React Icons** – Ícones prontos para uso em React
-- **React Hot Toast** – Sistema de notificações leves
-- **PostCSS + Autoprefixer** – Otimização de estilos no build
+- ⚛️ **React 18**
+- 💨 **Tailwind CSS**
+- 📊 **Chart.js + react-chartjs-2**
+- 🌐 **API OpenWeatherMap**
+- 🔔 **React Hot Toast**
+- 🎨 **React Icons**
+- 🛠️ **PostCSS + Autoprefixer**
 
 ---
 
 ## ✨ Funcionalidades
 
-- 🔍 Busca de cidades para exibir o clima atual
-- 🌡️ Exibição de temperatura, umidade, vento e sensação térmica
-- 📊 Gráficos para representar tendências meteorológicas
-- 📱 Interface responsiva para dispositivos móveis
-- 🔔 Notificações de erro e status via toast
+- 🔍 Busca de cidades
+- 🌡️ Exibição de dados como temperatura, umidade, sensação térmica e vento
+- 📊 Gráficos dinâmicos com dados meteorológicos
+- 📱 Interface responsiva
+- 🔔 Toasts para feedbacks e mensagens de erro
 
 ---
 
-## ⚙️ Como executar
+## ⚙️ Como executar o projeto localmente
 
 ```bash
+# Clone o repositório
 git clone https://github.com/SEU_USUARIO/weather-dashboard.git
+
 cd weather-dashboard
+
+# Instale as dependências
 npm install
+
+# Crie um arquivo .env com base no .env.example
+cp .env.example .env
+
+# Inicie o servidor
 npm start
