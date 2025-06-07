@@ -62,3 +62,18 @@ cp .env.example .env
 
 # Inicie a aplicação
 npm start
+
+📂 Estrutura de pastas
+weather-dashboard/
+├── public/
+├── src/
+│   ├── components/
+│   ├── hooks/
+│   ├── styles/
+│   ├── utils/
+│   ├── App.jsx
+│   └── index.jsx
+├── .env.example
+├── README.md
+├── package.json
+└── tailwind.config.js
